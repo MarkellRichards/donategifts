@@ -13,6 +13,7 @@ if (process.env.NODE_ENV === 'test') {
 dotenv.config({
   path: configPath,
 });
+console.log("cats and dogs");
 // EXPRESS SET UP
 const express = require('express');
 const bodyParser = require('body-parser');
